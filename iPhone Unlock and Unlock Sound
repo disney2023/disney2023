@@ -1,0 +1,7 @@
+adb remount
+adb shell rm /system/media/audio/ui/Lock.ogg
+adb shell rm /system/media/audio/ui/Unlock.ogg
+adb push lock.ogg /system/media/audio/ui/Lock.ogg
+adb push unlock.ogg /system/media/audio/ui/Unlock.ogg
+adb shell reboot
+Attachments
